@@ -1,0 +1,111 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bTopLeft"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="40dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/bTopRight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:text="Button" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iTopLeft"
+            android:layout_width="100dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beachball" 
+            android:scaleX="1.5"
+            android:scaleY="1.5"/>
+
+        <ImageView
+            android:id="@+id/iTopLeft"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beachball" 
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bBottemLeft"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="60dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/bBotemRight"
+           	android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="50dp"
+            android:text="Button" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iBottemLeft"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@drawable/beachball" />
+
+        <ImageView
+            android:id="@+id/iBottemRight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="25dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@drawable/beachball" />
+
+    </TableRow>
+
+</TableLayout>
