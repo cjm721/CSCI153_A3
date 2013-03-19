@@ -15,7 +15,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="45dp"
             android:layout_marginTop="40dp"
-            android:text="Button" />
+            android:text="Start" 
+            android:onClick="topLeft"/>
 
         <Button
             android:id="@+id/bTopRight"
@@ -24,7 +25,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="40dp"
             android:layout_marginRight="50dp"
-            android:text="Button" />
+            android:text="Start" 
+            android:onClick="topRight"/>
 
     </TableRow>
 
@@ -36,23 +38,23 @@
         <ImageView
             android:id="@+id/iTopLeft"
             android:layout_width="100dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="45dp"
             android:layout_marginTop="25dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/beachball" 
             android:scaleX="1.5"
-            android:scaleY="1.5"/>
+            android:scaleY="1.5"
+            android:src="@drawable/beachball" />
 
         <ImageView
-            android:id="@+id/iTopLeft"
+            android:id="@+id/iTopRight"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/beachball" 
-            android:layout_marginTop="25dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="50dp"
+            android:layout_marginTop="25dp"
             android:scaleX="1.5"
-            android:scaleY="1.5"/>
+            android:scaleY="1.5"
+            android:src="@drawable/beachball" />
 
     </TableRow>
 
@@ -67,7 +69,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="45dp"
             android:layout_marginTop="60dp"
-            android:text="Button" />
+            android:text="Start" 
+            android:onClick="bottemLeft"/>
 
         <Button
             android:id="@+id/bBotemRight"
@@ -76,7 +79,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="60dp"
             android:layout_marginRight="50dp"
-            android:text="Button" />
+            android:text="Start" 
+            android:onClick="bottemRight"/>
 
     </TableRow>
 
